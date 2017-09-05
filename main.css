@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	padding: 60px;
+}
+nav, section{
+	margin-bottom: 60px;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav-bar{
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+	position: fixed;
+	border-bottom: 1px solid;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+
+}
+.logo-left{
+	display: inline-block;
+}
+
+.top-nav{
+	text-align: right;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right:10px;
+	padding: 10px;
+}
+
+.nav-link{
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.logo-left h1{
+	font-size: 18px;
+}
+
+.search-zone .search-label{
+	display: block;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.search-zone .search-field, .search-zone .search-button{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 3px
+}
+
+.search-zone input{
+	font-size: 16px;
+	height: 32px;
+	width: 500px;
+	padding: 0 5px 0 8px;
+}
+
+.search-zone .search-button{
+	height: 32px;
+	width: 37px;
+	vertical-align: bottom;
+	padding: 2px 5px 3px 5px
+}
+
+.pages{
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius: 3px;
+	font-size: 0;
+}
+
+.pages-button, .pages-numbers{
+	font-size: 16px;
+	display: inline-block;
+	padding: 3px 8px 3px 8px;
+}
+
+.pages-numbers {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.jobs{
+	padding: 0;
+}
+
+.job{
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+.post-date, .location{
+color: gray;
+}
+
+.title{
+color: blue;
+font-weight: 800;
+padding: 0 10px 0 10px;
+}
